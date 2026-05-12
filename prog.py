@@ -1,8 +1,6 @@
-# Addition Program in Python
+num = int(input("Enter number: "))
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-
-sum = a + b
-
-print("Sum is:", sum)
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
